@@ -156,7 +156,7 @@ class MyFooter extends HTMLElement
                     <div class="social-links">
                         <a href="https://www.facebook.com/sailweb7" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.Instagram.com/sailweb7" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
@@ -284,4 +284,5 @@ class MyFooter extends HTMLElement
 }
 
 customElements.define('my-footer', MyFooter)
+
 
