@@ -154,7 +154,7 @@ class MyFooter extends HTMLElement
                     <h3>SailWeb7</h3>
                     <p>We are a leading web development agency dedicated to creating exceptional digital experiences that drive business growth.</p>
                     <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.facebook.com/sailweb7" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" aria-label="Tiktok"><i class="fab fa-tiktok"></i></a>
                         <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                         <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -284,3 +284,4 @@ class MyFooter extends HTMLElement
 }
 
 customElements.define('my-footer', MyFooter)
+
