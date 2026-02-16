@@ -11,12 +11,15 @@
     <meta name="robots" content="index, follow, max-image-preview:large">
     <meta name="googlebot" content="index, follow">
     
-    <!-- Open Graph / Social Media Meta Tags -->
+    <!-- Open Graph / Social Media Meta Tags (Absolute URLs) -->
     <meta property="og:title" content="SailWeb7 - Professional Web Development Agency">
     <meta property="og:description" content="We create custom digital experiences that help your business stand out and achieve measurable results in Kenya and beyond.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://sailweb7.co.ke">
-    <meta property="og:image" content="https://sailweb7.co.ke/images/og-image.jpg">
+    <meta property="og:url" content="https://your-site.netlify.app">          <!-- Replace with your actual Netlify URL or custom domain -->
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630&q=80">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="SailWeb7 - Web Development Agency">
     <meta property="og:site_name" content="SailWeb7">
     <meta property="og:locale" content="en_KE">
     
@@ -24,21 +27,34 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SailWeb7 - Professional Web Development Agency">
     <meta name="twitter:description" content="We create custom digital experiences that help your business stand out and achieve measurable results.">
-    <meta name="twitter:image" content="https://sailweb7.co.ke/images/twitter-image.jpg">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630&q=80">
+    <meta name="twitter:image:alt" content="SailWeb7 - Web Development Agency">
     <meta name="twitter:site" content="@SailWeb7">
     
-    <!-- Security Headers (CSP as a single line) -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/ https://cdn.jsdelivr.net 'unsafe-inline' 'unsafe-eval'; style-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/ https://fonts.googleapis.com 'unsafe-inline'; img-src 'self' https://images.unsplash.com data:; font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none';">
+    <!-- Security Headers (Adjusted for Netlify) -->
+    <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self' https:;
+        script-src 'self' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net 'unsafe-inline' 'unsafe-eval';
+        style-src 'self' https://cdnjs.cloudflare.com https://fonts.googleapis.com 'unsafe-inline';
+        img-src 'self' https://images.unsplash.com data:;
+        font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com;
+        connect-src 'self';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+        frame-ancestors 'none';
+    ">
     <meta name="referrer" content="strict-origin-when-cross-origin">
     
-    <!-- Structured Data / Schema.org -->
+    <!-- Structured Data / Schema.org (with image) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "SailWeb7",
-        "url": "https://sailweb7.co.ke",
-        "logo": "https://sailweb7.co.ke/images/logo.png",
+        "url": "https://your-site.netlify.app",          <!-- Replace with your actual URL -->
+        "logo": "https://your-site.netlify.app/logo.png", <!-- If you have a real logo, place it and update -->
+        "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
         "description": "Professional Web Development Agency creating stunning, responsive websites and web applications",
         "address": {
             "@type": "PostalAddress",
@@ -71,16 +87,15 @@
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <link rel="dns-prefetch" href="//images.unsplash.com">
     
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://sailweb7.co.ke">
+    <!-- Canonical URL (Update to your actual domain) -->
+    <link rel="canonical" href="https://your-site.netlify.app">
     
-    <!-- Favicon and App Icons -->
+    <!-- Favicon and App Icons (Update these if you have real files) -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-
     
     <style>
         :root {
@@ -1436,6 +1451,7 @@
 </body>
 
 </html>
+
 
 
 
